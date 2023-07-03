@@ -13,7 +13,7 @@ while True:
     elif menu == "3":
         nome_arquivo = input("Nome da arquivo: ")
         with open(nome_arquivo, "w", encoding="UTF-8") as file:
-            file.write("Bem vindo a seu arquivo, nele você pode ser tudo o que você quiser!")
+            file.write("Bem vindo a seu arquivo, nele você pode escrever tudo o que você quiser!")
     elif menu == "4":
         nome_arquivo = input("Nome da arquivo: ")
         os.rm(nome_arquivo)
