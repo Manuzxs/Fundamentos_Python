@@ -17,10 +17,10 @@ while True:
     elif menu == "4":
         nome_arquivo = input("Nome da arquivo: ")
         os.rm(nome_arquivo)
-    # elif menu == "5":
-    #     # nome_arquivo = input("Nome da arquivo: ")
-    #     # with open(nome_arquivo, "a", encoding="UTF-8") as file:
-    #         # file.("Bem vindo a sua arquivo, nele você pode ser tudo o que você quiser!")
+    elif menu == "5":
+        nome_arquivo = input("Nome da arquivo: ")
+        with open(nome_arquivo, "a", encoding="UTF-8") as file:
+            file.write("\nBem vindo a seu arquivo, nele você pode escrever tudo o que você quiser!")
         
     #     l = [['The Hunger Games', 'Suzanne Collins', '12.97'],
     # ['The Fault In Our Stars', 'John Green', '11.76'],
